@@ -1,0 +1,194 @@
+.display-none {
+    display:none;
+}
+.coin-image {
+    width:30px;
+}
+.graph-image {
+    width:50px;
+}
+.red {
+    color:red;
+}
+.green {
+    color:green;
+}
+.coin-price, .coin-change, .coin-marketcap, .coin-supply, .header-3, .header-4, .header-5, .header-6 {
+    text-align:right;
+    font-size:0.9rem;
+}
+.coin-search {
+width:100%;
+justify-content: center;
+text-align: left;
+padding: 2rem 1rem 1rem 1rem;
+}
+
+.coin-input:focus {
+    outline:none;
+}
+
+.coin-input {
+    border-radius: 10px;
+    border:1px solid rgb(235, 235, 235);
+    padding-left:0.5rem;
+    padding: 0.3rem 0.5rem;
+}
+
+.table-data {
+    font-weight:500;
+}
+tr td {
+    width:100% !important;
+}
+
+.coin-table-div {
+    overflow-x: scroll;
+    padding:0rem 1rem;
+    margin: 0rem 0rem;
+}
+.card-rank {
+    text-align: left !important;
+}
+
+.header {
+    padding:1rem 0rem !important;
+}
+
+
+
+.header-container {
+    font-size:0.9rem;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    border-top: 1px solid rgb(235, 235, 235);
+}
+.coin-row {
+    border-bottom:1px solid rgb(235, 235, 235);
+    height:4rem;
+
+}
+table {
+    table-layout: fixed;
+    margin-bottom:4rem;
+}
+.coin-rank, .header-1 {
+    width:10% !important;
+    min-width:40px !important;
+    text-align: center;
+}
+.coin-name, .header-2 {
+    min-width:200px !important;
+}
+.coin-price, .header-3 {
+    min-width:150px !important;
+}
+.coin-change, .header-4 {
+    min-width:100px !important;
+}
+.coin-marketcap, .header-5 {
+    min-width:200px !important;
+}
+.coin-supply, .header-6 {
+    min-width:200px !important;
+}
+.coin-last, .header-7 {
+    min-width:200px !important;
+    text-align: center;
+}
+
+
+.coin-symbol {
+    color:grey;
+    font-weight:300;
+    font-size:0.8rem;
+}
+
+
+.brand-logo {
+    width:7%;
+    text-align: left !important;
+    justify-content: left;
+    padding-left:2rem;
+}
+
+.gainer-div {
+    display: inline-block;
+    text-align: left;
+    justify-content: center;
+    margin: 0rem 2rem;
+    box-shadow: 0.5px 0.5px 0.5px 1px rgb(235, 235, 235) !important;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    border-radius: 10px;
+    max-height:20rem;
+    overflow: hidden;
+    width:100%;
+    border-collapse: collapse;
+    min-width:250px;
+}
+.card-rank {
+    margin:0.6rem 0rem;
+}
+.name-link {
+    min-width:185px;
+}
+.change-link {
+    text-align: right;
+    width:50%;
+    font-weight:500;
+}
+.gainer-link {
+    height:2rem !important;
+}
+.gainer-image {
+    width:30px;
+    text-align: left;
+}
+.card-rank-container {
+    padding-top:2rem;
+    display:flex;
+    justify-content: center;
+    font-size:0.8rem;
+
+}
+@media only screen and (max-width: 1140px) {
+    .gainer-div {
+    margin:0rem 0.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 940px) {
+    .volume-gainer {
+      display:none;
+    }
+  }
+
+@media only screen and (max-width: 578px) {
+    .card-rank-container {
+      display:none;
+    }
+  }
+.move {
+    margin-bottom: 1rem !important;
+    text-align: center;
+    justify-content: center;
+    font-size:1.1rem;
+    font-weight:bolder;
+}
+
+.container-header {
+    padding-top:2rem;
+}
+
+.coin-name {
+    font-weight:600;
+    margin-right:0.2rem;
+}
+
+.coin-symbol {
+    font-size:0.8rem;
+
+}
+
+.coin-image {
+    margin-right:0.2rem;
+}
